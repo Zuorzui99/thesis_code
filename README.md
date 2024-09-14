@@ -11,7 +11,7 @@ This script is responsible for all the variable calculations used in the models.
 This file calculates the outcome variable, which is essential for the subsequent modeling. The outcome variable is a key part of the analysis for both research questions. It is calculated as the difference in percentage of missing data between the raw and the edited dataset.
 
 ### 3. `Hurdle_model.R`
-This script contains the hurdle model used to answer the first research question. It builds a binomial GLMM for the zero part of the model and a LMM for the non-zero part of the model, using the variables calculated in `variable_prep.R` and `percentage_change.R`.
+This script contains the hurdle model used to analyze how device and user characteristics influence the level of engagement in editing and improving missing data within the smart travel survey. It builds a binomial GLMM for the zero part of the model and a LMM for the non-zero part of the model, using the variables calculated in `variable_prep.R` and `percentage_change.R`.
 
 ### 4. `GLMM_tree_02.R`
 This script fits the GLMM trees to identify subgroups based on available features, examining whether these subgroups exhibit similar patterns of engagement in editing and improving missing data.
